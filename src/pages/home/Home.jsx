@@ -4,7 +4,7 @@ import HeroBanner from './heroBanner/HeroBanner'
 
 HeroBanner;
 
-const home = () => {
+const Home = () => {
   return (
     <div className='homePage'>
       <HeroBanner />
@@ -13,4 +13,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
