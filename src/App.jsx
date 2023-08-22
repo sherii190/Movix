@@ -5,7 +5,9 @@ import { getApiConfiguration } from "./store/homeSlice"
 
 
 function App() {
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
+  const {url} = useSelector((state) =>
+  state.home)
     
   useEffect(() => {
     apiTesting();
@@ -21,6 +23,7 @@ function App() {
   return (
    <div className="App">
     App
+  {url?.total_pages}
    </div>
      
   )
