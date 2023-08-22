@@ -3,15 +3,15 @@ import {fetchDataFromApi} from "./utils/api"
 
 
 function App() {
-  useEffect(()=>{
+  useEffect(() => {
     apiTesting();
   }, []);
 
     const apiTesting = () => {
-        fetchDataFromApi("/movie/popular").then((res) => {
+        fetchDataFromApi("/discover/movie").then((res) => {
           console.log(res);
-        })
-    }
+        });
+    };
 
   return (
    <div className="App">
