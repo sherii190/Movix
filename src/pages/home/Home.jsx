@@ -1,16 +1,16 @@
-import React from 'react'
-import "./style.scss"
-import HeroBanner from './heroBanner/HeroBanner'
+import React from "react";
 
-HeroBanner;
+import "./style.scss";
+
+import HeroBanner from "./heroBanner/HeroBanner";
+
 
 const Home = () => {
-  return (
-    <div className='homePage'>
-      <HeroBanner />
-      
-    </div>
-  )
-}
+    return (
+        <div className="homePage">
+            <HeroBanner />
+        </div>
+    );
+};
 
-export default Home
+export default Home;
