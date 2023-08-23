@@ -4,7 +4,7 @@ import "./style.scss"
 const footer = () => {
   return (
     <div>
-      
+      Footer
     </div>
   )
 }

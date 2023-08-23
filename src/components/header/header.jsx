@@ -4,7 +4,7 @@ import "./stye.scss"
 const header = () => {
   return (
     <div>
-      
+      Header
     </div>
   )
 }

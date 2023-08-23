@@ -4,7 +4,7 @@ import "./style.scss"
 const pageNotFound = () => {
   return (
     <div>
-      
+      PageNotFound
     </div>
   )
 }

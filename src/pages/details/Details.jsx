@@ -4,7 +4,7 @@ import "./style.scss"
 const Details = () => {
   return (
     <div>
-      
+      Details
     </div>
   )
 }
